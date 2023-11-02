@@ -91,7 +91,7 @@ style.configure("TLabel", font=('Helvetica', 12))
 style.configure("TEntry", font=('Helvetica', 12))
 
 # Create and align labels and input fields
-search_label = ttk.Label(root, text="Search for an element:")
+search_label = ttk.Label(root, text="Search Goods in Warehouse:")
 search_label.grid(row=0, column=0, padx=10, pady=10, sticky="w")
 
 search_entry = ttk.Entry(root)
@@ -123,16 +123,16 @@ desc_button.grid(row=3, column=2, padx=10, pady=10, sticky="w")
 search_button = ttk.Button(root, text="Search", command=search_element)
 search_button.grid(row=0, column=2, padx=10, pady=10)
 
-add_button = ttk.Button(root, text="Add", command=add_element)
+add_button = ttk.Button(root, text="Import", command=add_element)
 add_button.grid(row=1, column=2, padx=10, pady=10)
 
-remove_button = ttk.Button(root, text="Remove", command=remove_element)
+remove_button = ttk.Button(root, text="Export", command=remove_element)
 remove_button.grid(row=2, column=2, padx=10, pady=10)
 
 sort_button = ttk.Button(root, text="Sort and Print", command=sort_list)
 sort_button.grid(row=3, column=3, padx=10, pady=10)
 
-listbox_label = ttk.Label(root, text="List of Elements:")
+listbox_label = ttk.Label(root, text="List of Goods:")
 listbox_label.grid(row=4, column=0, padx=10, pady=10, sticky="w")
 
 listbox = tk.Listbox(root, height=10, selectbackground="lightblue")
