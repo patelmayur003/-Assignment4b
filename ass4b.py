@@ -4,10 +4,6 @@ Author: Mayur Patel
 Description: An interactive list application with a GUI for searching, adding, removing, and sorting elements.
 '''
 # Import for the visualization of the interface (GUI)
-import tkinter as tk
-from tkinter import ttk
-import sys
-
 class CustomObject:
     def __init__(self, name):
         self.name = name
