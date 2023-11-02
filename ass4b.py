@@ -18,12 +18,12 @@ object1 = CustomObject("Warning 4 packets remaining")
 object2 = CustomObject("Full Stock")
 
 # Create a list with a mixture of data types, including objects
-my_list = ["apple ship 4", 2.5, "apple container 5", 3, 4.2,
-           "banana container 6", object1, 7, 8.3, "date", object2]
+my_list = ["apple", 2.5, "TV", 3, 4.2,
+           "banana", object1, 7, 8.3, "Halloween Toys", object2]
 
 # Create a Tkinter window
 root = tk.Tk()
-root.title("Interactive List App")
+root.title("Manage Stock App")
 
 def search_element():
     search_term = search_entry.get()
@@ -97,13 +97,13 @@ search_label.grid(row=0, column=0, padx=10, pady=10, sticky="w")
 search_entry = ttk.Entry(root)
 search_entry.grid(row=0, column=1, padx=10, pady=10)
 
-add_label = ttk.Label(root, text="Add a new element:")
+add_label = ttk.Label(root, text=" Import (Add) Goods : ")
 add_label.grid(row=1, column=0, padx=10, pady=10, sticky="w")
 
 add_entry = ttk.Entry(root)
 add_entry.grid(row=1, column=1, padx=10, pady=10)
 
-remove_label = ttk.Label(root, text="Remove an element:")
+remove_label = ttk.Label(root, text=" Export (Remove) Goods : ")
 remove_label.grid(row=2, column=0, padx=10, pady=10, sticky="w")
 
 remove_entry = ttk.Entry(root)
