@@ -132,7 +132,7 @@ remove_button.grid(row=2, column=2, padx=10, pady=10)
 sort_button = ttk.Button(root, text="Sort and Print", command=sort_list)
 sort_button.grid(row=3, column=3, padx=10, pady=10)
 
-listbox_label = ttk.Label(root, text="List of Goods:")
+listbox_label = ttk.Label(root, text="List of Goods & Items numbers:")
 listbox_label.grid(row=4, column=0, padx=10, pady=10, sticky="w")
 
 listbox = tk.Listbox(root, height=10, selectbackground="lightblue")
@@ -145,7 +145,7 @@ result_label.grid(row=6, column=0, columnspan=4, padx=10, pady=10, sticky="w")
 calculate_sum_button = ttk.Button(root, text="Calculate Sum", command=calculate_sum)
 calculate_sum_button.grid(row=7, column=0, padx=10, pady=10)
 
-count_elements_button = ttk.Button(root, text="Count Elements", command=count_elements)
+count_elements_button = ttk.Button(root, text="Count of Goods/ Items", command=count_elements)
 count_elements_button.grid(row=7, column=1, padx=10, pady=10)
 
 # Create the Refresh button
