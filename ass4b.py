@@ -18,8 +18,8 @@ object1 = CustomObject("Warning 4 packets remaining")
 object2 = CustomObject("Full Stock")
 
 # Create a list with a mixture of data types, including objects
-my_list = ["apple", 2.5, "TV", 3, 4.2,
-           "banana", object1, 7, 8.3, "Halloween Toys", object2]
+my_list = ["apple 4", 2.5, "TV", 3, 4.2, "medical 9"
+           "banana 6", object1, 7, 8.3, "Halloween Toys", object2]
 
 # Create a Tkinter window
 root = tk.Tk()
